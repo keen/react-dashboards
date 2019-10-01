@@ -2,7 +2,7 @@
   "name": "keen-react-dashboards",
   "description": "React component of Keen dashboard builder",
   "license": "MIT",
-  "version": "1.0.1",
+  "version": "1.0.2",
   "main": "dist/main.js",
   "scripts": {
     "start": "concurrently --kill-others \"NODE_ENV=development webpack-dev-server\"",

@@ -4,7 +4,7 @@ const webpack = require('webpack');
 const extendedPath = path.resolve(__dirname, 'dist');
 
 const fileName = 'main';
-const entry = ( process.env.NODE_ENV === 'development' ) ? './test/demo/example/index.js' : './lib/Chart.js' ;
+const entry = ( process.env.NODE_ENV === 'development' ) ? './test/demo/example/index.js' : './lib/Dashboards.js' ;
 
 module.exports = {
   entry,

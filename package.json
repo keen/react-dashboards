@@ -9,7 +9,7 @@
     "build": "NODE_ENV=production webpack -p",
     "preversion": "npm run test",
     "version": "npm run build && git add .",
-    "postversion": "git push && git push --tags",
+    "postversion": "git push && git push --tags && npm publish",
     "test": "NODE_ENV=test jest",
     "test:watch": "NODE_ENV=test jest --watch"
   },
@@ -92,7 +92,7 @@
     "replace-in-file": "^3.4.0",
     "style-loader": "^0.20.3",
     "webpack": "^4.5.0",
-    "webpack-bundle-analyzer": "^2.11.1",
+    "webpack-bundle-analyzer": "^3.3.2",
     "webpack-cli": "^3.1.1",
     "webpack-dev-server": "^3.1.1",
     "xhr-mock": "^2.3.2"

@@ -28,6 +28,7 @@ import Dashboards from 'keen-react-dashboards';
 const App = () => {
   return (
     <Dashboards
+      container="#app" //required
       keenAnalysis={{
         config: {
           projectId: 'YOUR_PROJECT_ID',

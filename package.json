@@ -80,7 +80,7 @@
     "jest-environment-jsdom-c3": "^2.0.0",
     "keen-analysis": "^3.4.0",
     "nock": "^9.2.6",
-    "postcss": "^6.0.21",
+    "postcss": "^8.4.31",
     "postcss-cli": "^5.0.0",
     "postcss-color-function": "^4.0.1",
     "postcss-css-variables": "^0.8.1",
